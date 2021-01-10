@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Family Money Manager</string>
+    <string name="usernameText">Username</string>
+    <string name="passwordText">Password</string>
+    <string name="login">Sign In</string>
+    <string name="username">Username</string>
+    <string name="loginSuccessful">Login Success!</string>
+    <string name="loginFailed">Login failed. Username or password is incorrect!</string>
+</resources>
