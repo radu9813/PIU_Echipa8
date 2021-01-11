@@ -35,6 +35,7 @@ class MeniuActivity : AppCompatActivity()
         textButtons.add("Wish list")
         textButtons.add("Split bill")
         textButtons.add("Social Networks")
+        textButtons.add("Money Manage")
 
         imagesList.add(R.drawable.controlparental)
         imagesList.add(R.drawable.creategroup)
@@ -47,5 +48,6 @@ class MeniuActivity : AppCompatActivity()
         imagesList.add(R.drawable.wishlist)
         imagesList.add(R.drawable.splitbill)
         imagesList.add(R.drawable.socialnetworks)
+        imagesList.add(R.drawable.moneymanage)
     }
 }

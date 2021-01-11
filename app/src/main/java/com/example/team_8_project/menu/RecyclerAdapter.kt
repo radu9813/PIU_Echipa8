@@ -95,6 +95,11 @@ class RecyclerAdapter(private var images: List<Int>, private var buttons: List<S
                 val intent = Intent(holder.itemView.context, SocialNetworksActivity::class.java)
                 holder.itemView.context.startActivity(intent)
             }
+            else if(buttons[position].contentEquals("Money Manage"))
+            {
+                val intent = Intent(holder.itemView.context, MoneyManageActivity::class.java)
+                holder.itemView.context.startActivity(intent)
+            }
         }
     }
 
