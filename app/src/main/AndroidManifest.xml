@@ -9,6 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CalaTourApp">
+        <activity android:name=".activities.SocialNetworksActivity"></activity>
+        <activity android:name=".activities.SplitBillActivity" />
+        <activity android:name=".activities.WishListActivity" />
+        <activity android:name=".activities.ShopListActivity" />
+        <activity android:name=".activities.BillsReminderActivity" />
+        <activity android:name=".activities.PayBillsActivity" />
+        <activity android:name=".activities.LanguagesActivity" />
+        <activity android:name=".activities.DonateActivity" />
+        <activity android:name=".activities.CreateGroupActivity" />
+        <activity android:name=".activities.ControlParentalActivity" />
+        <activity android:name=".activities.ExchangeActivity" />
+        <activity android:name=".menu.MeniuActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
