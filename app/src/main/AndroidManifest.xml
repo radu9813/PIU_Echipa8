@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CalaTourApp">
-        <activity android:name=".activities.SocialNetworksActivity"></activity>
+        <activity android:name=".activities.MoneyManageActivity"></activity>
+        <activity android:name=".activities.SocialNetworksActivity" />
         <activity android:name=".activities.SplitBillActivity" />
         <activity android:name=".activities.WishListActivity" />
         <activity android:name=".activities.ShopListActivity" />
