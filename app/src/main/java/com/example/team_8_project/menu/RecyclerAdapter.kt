@@ -54,12 +54,12 @@ class RecyclerAdapter(private var images: List<Int>, private var buttons: List<S
             {
                 val intent = Intent(holder.itemView.context, DonateActivity::class.java)
                 holder.itemView.context.startActivity(intent)
-            }
+            }/*
             else if(buttons[position].contentEquals("Languages"))
             {
                 val intent = Intent(holder.itemView.context, LanguagesActivity::class.java)
                 holder.itemView.context.startActivity(intent)
-            }
+            }*/
             else if(buttons[position].contentEquals("Exchange"))
             {
                 val intent = Intent(holder.itemView.context, ExchangeActivity::class.java)
@@ -85,16 +85,17 @@ class RecyclerAdapter(private var images: List<Int>, private var buttons: List<S
                 val intent = Intent(holder.itemView.context, WishListActivity::class.java)
                 holder.itemView.context.startActivity(intent)
             }
-            else if(buttons[position].contentEquals("Split bill"))
+            else if(buttons[position].contentEquals("Generate Report"))
             {
                 val intent = Intent(holder.itemView.context, SplitBillActivity::class.java)
                 holder.itemView.context.startActivity(intent)
-            }
+            }/*
             else if(buttons[position].contentEquals("Social Networks"))
             {
                 val intent = Intent(holder.itemView.context, SocialNetworksActivity::class.java)
                 holder.itemView.context.startActivity(intent)
             }
+            */
             else if(buttons[position].contentEquals("Money Manage"))
             {
                 val intent = Intent(holder.itemView.context, MoneyManageActivity::class.java)
