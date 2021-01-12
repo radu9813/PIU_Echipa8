@@ -6,13 +6,13 @@ import android.view.View
 import android.widget.Toast
 import com.example.team_8_project.R
 
-class BillsReminderActivity : AppCompatActivity() {
+class PaySelectedBillActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_bills_reminder)
+        setContentView(R.layout.activity_pay_selected_bill)
     }
 
-    fun remindMe(view: View) {
-        Toast.makeText(applicationContext,"Bill reminder saved!", Toast.LENGTH_SHORT).show()
+    fun openPaymentApp(view: View) {
+        Toast.makeText(applicationContext,"Payment application is opening...", Toast.LENGTH_SHORT).show()
     }
 }
