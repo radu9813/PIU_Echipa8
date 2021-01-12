@@ -6,4 +6,56 @@
     android:layout_height="match_parent"
     tools:context=".activities.ShopListActivity">
 
+    <EditText
+        android:id="@+id/elementToAddInList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="160dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Element"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.247"
+        tools:ignore="UnknownId" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="410dp"
+        android:layout_height="251dp"
+        android:src="@drawable/shoplist_activity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.062" />
+
+    <Button
+        android:id="@+id/btnInsertInList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/elementToAddInList" />
+
+    <TextView
+        android:id="@+id/txtViewList"
+        android:layout_width="190dp"
+        android:layout_height="181dp"
+        android:layout_marginBottom="220dp"
+        android:text="Lista de cumparaturi"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:gravity="center_vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="RtlCompat" />
 </androidx.constraintlayout.widget.ConstraintLayout>
