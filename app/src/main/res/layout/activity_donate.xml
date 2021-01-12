@@ -6,4 +6,101 @@
     android:layout_height="match_parent"
     tools:context=".activities.DonateActivity">
 
+    <ImageView
+        android:id="@+id/daruiesteViata"
+        android:layout_width="183dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintBottom_toTopOf="@+id/sosSatele"
+        app:layout_constraintEnd_toStartOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.888"
+        app:srcCompat="@drawable/daruieste_viata"
+        android:transitionName="Daruieste Viata"
+
+        />
+
+    <ImageView
+        android:id="@+id/sosSatele"
+        android:layout_width="187dp"
+        android:layout_height="95dp"
+        android:layout_marginBottom="112dp"
+        app:layout_constraintBottom_toTopOf="@+id/hospice"
+        app:layout_constraintEnd_toStartOf="@+id/textView3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/sos_satele_copiilor" />
+
+    <ImageView
+        android:id="@+id/hospice"
+        android:layout_width="166dp"
+        android:layout_height="125dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNumber2"
+        app:layout_constraintEnd_toStartOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/hospice_casa" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="174dp"
+        android:layout_height="122dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="24dp"
+        android:text="Daruieste Viata se dedica modernizarii si dotarii clinicilor din Romania, in special a sectiilor de oncologie, astfel incat, un numar cat mai mare de pacienti sa poata beneficia de tratament la standarde europene, pentru ca sansele lor de vindecare sa creasca."
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.282"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="195dp"
+        android:layout_height="111dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="96dp"
+        android:text="Noi oferim o familie copiilor ajunși în dificultate, îi ajutăm să-și clădească un viitor și contribuim la dezvoltarea comunităților în care trăiesc."
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="218dp"
+        android:layout_height="137dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="44dp"
+        android:text="Viziunea noastră este ca, în România, toți pacienții cu boli incurabile să beneficieze de servicii adecvate de îngrijire paliativă, la momentul potrivit, pentru a trăi cu demnitate fiecare clipă, alături de cei dragi."
+        app:layout_constraintBottom_toTopOf="@+id/buton_donatii"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buton_donatii"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:text="Donate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="44dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buton_donatii"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
