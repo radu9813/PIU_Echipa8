@@ -10,7 +10,7 @@
         android:id="@+id/goal_price_id"
         android:layout_width="150dp"
         android:layout_height="43dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="32dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Goal Price"
@@ -20,14 +20,15 @@
         app:layout_constraintTop_toBottomOf="@+id/goal_name_id" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageLambo"
         android:layout_width="107dp"
         android:layout_height="92dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="40dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/wishlist_title"
-        android:src="@drawable/lamborghinii2"/>
+        android:src="@drawable/lamborghinii2"
+        android:visibility="invisible"/>
 
     <TextView
         android:id="@+id/wishlist_title"
@@ -41,7 +42,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textLambo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="172dp"
@@ -50,7 +51,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.714"
         app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="invisible"/>
 
 
     <EditText
@@ -62,9 +64,10 @@
         android:text="Goal Name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
 
     <Button
         android:id="@+id/button"
@@ -74,10 +77,10 @@
         android:text="Set goal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.836"
+        app:layout_constraintHorizontal_bias="0.862"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/goal_price_id"
-        app:layout_constraintVertical_bias="0.331" />
+        app:layout_constraintVertical_bias="0.367" />
 
     <Button
         android:id="@+id/button2"
@@ -87,10 +90,10 @@
         android:text="Goal Succeded"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.208"
+        app:layout_constraintHorizontal_bias="0.157"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/goal_price_id"
-        app:layout_constraintVertical_bias="0.093" />
+        app:layout_constraintVertical_bias="0.212" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
